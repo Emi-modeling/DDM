@@ -1,6 +1,6 @@
 # DDM
 Estimating Parameters of the Drift Diffusion Model Using Particle Swarm Optimization
-Estimating Parameters of the Drift Diffusion Model Using Particle Swarm Optimization
+
 Firstly, the goal is to fit a DDM to reaction time and accuracy data. Afterwards, the likelihood of the observed data, given the model parameters, is maximized. This process is equivalent to the minimization of the negative log-likelihood of the observed data, given the model parameter.
 
 
@@ -34,4 +34,4 @@ Then, number of particles, inertia weights, cognitive and social acceleration co
      max_iteration = 1000
      max_run = 1
 
-This form could be adapted to include anarchy (PSO_algorithm_anarchy, PSO_algorithm_adapted anarchy) or rebounding mechanisms (PSO_algorithm_rebounded; PSO_algorithm_anarchy_rebounded, PSO_algorithm_adapted_anarchy_rebounded.
+This form could be adapted to include anarchy (PSO_algorithm_anarchy, PSO_algorithm_adapted anarchy), rebounding mechanisms (PSO_algorithm_rebounded; PSO_algorithm_anarchy_rebounded, PSO_algorithm_adapted_anarchy_rebounded) or updated weights (PSO_algorithm_updated_weights).
