@@ -34,4 +34,4 @@ Then, number of particles, inertia weights, cognitive and social acceleration co
      max_iteration = 1000
      max_run = 1
 
-This form could be adapted to include anarchy (PSO_algorithm_anarchy, PSO_algorithm_adapted anarchy), rebounding mechanisms (PSO_algorithm_rebounded; PSO_algorithm_anarchy_rebounded, PSO_algorithm_adapted_anarchy_rebounded) or updated weights (PSO_algorithm_updated_weights).
+This form could be adapted to include anarchy (PSO_algorithm_anarchy, PSO_algorithm_adapted anarchy), rebounding mechanisms (PSO_algorithm_rebounded; PSO_algorithm_anarchy_rebounded, PSO_algorithm_adapted_anarchy_rebounded) or updated weights (PSO_algorithm_simple_weights).
